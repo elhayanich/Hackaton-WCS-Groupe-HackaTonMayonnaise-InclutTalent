@@ -1,12 +1,22 @@
-function App() {
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Home, About, Jobs, LogIn, Register } from "./pages/index";
+import Navbar from "./components/Navbar";
+
+const App = () => {
   return (
-  <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-   <h1 className="text-4xl font-bold text-green-500">Hello World</h1>
-  </>
+    <main className="bg-slate-300/20">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/jobs" element={<Jobs />} />
+          <Route path="/login" element={<LogIn />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </Router>
+    </main>
   );
-}
+};
 
 export default App;
