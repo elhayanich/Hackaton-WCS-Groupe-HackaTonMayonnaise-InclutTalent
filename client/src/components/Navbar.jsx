@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link to="/jobs">Jobs</Link>
           </li>
           <li className="m-4">
-            <Link>
+            <Link to="/LogIn">
               <button className="border-solid border-2 px-8 py-2 text-white bg-indigo-600 rounded-lg border-black ">
                 Connexion
               </button>
