@@ -1,9 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-<<<<<<< HEAD
-import { Home, About, Jobs, Formations, JobOffer } from "./pages/index";
-=======
 import { Home, About, Jobs, Formations, JobOffer, Blog } from "./pages/index";
->>>>>>> 4f2029a984914763ab8693f4eee2d115ba5912e3
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 const App = () => {
