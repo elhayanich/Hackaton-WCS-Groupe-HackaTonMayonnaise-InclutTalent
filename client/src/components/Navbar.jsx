@@ -2,12 +2,6 @@ import { Link } from "react-router-dom";
 import LogIn from "../pages/LogIn";
 
 const Navbar = () => {
-  // const [modal, setModal] = useState(false);
-
-  // const toggleModal = () => {
-  //   setModal(!modal);
-  // };
-
   return (
     <nav className="flex bg-blue-100 content-center justify-between border-b-2 border-black">
       <span className=" m-4 text-purple-950 text-4xl">Talentia</span>
