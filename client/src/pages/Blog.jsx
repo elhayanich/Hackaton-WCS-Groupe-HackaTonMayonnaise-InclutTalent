@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "../components/Button";
-
+import Demographie from "../assets/images/demographie.png";
+import Diversite from "../assets/images/diversite.png";
+import Handicap from "../assets/images/handicap-secteur.png";
 const Blog = () => {
   return (
     <div className="bg-white min-h-screen">
@@ -20,7 +22,7 @@ const Blog = () => {
             </Button>
           </div>
           <img
-            src="/path/to/your/image1.png"
+            src={Demographie}
             alt="Demographie et Inclusion"
             className="w-1/2"
           />
@@ -41,11 +43,7 @@ const Blog = () => {
               En savoir plus
             </Button>
           </div>
-          <img
-            src="/path/to/your/image2.png"
-            alt="Equité et Diversité"
-            className="w-1/2"
-          />
+          <img src={Diversite} alt="Equité et Diversité" className="w-1/2" />
         </section>
 
         <section className="flex mb-12 items-start">
@@ -61,11 +59,7 @@ const Blog = () => {
               En savoir plus
             </Button>
           </div>
-          <img
-            src="/path/to/your/image3.png"
-            alt="Analyse des Loisirs"
-            className="w-1/2"
-          />
+          <img src={Handicap} alt="Analyse des Loisirs" className="w-1/2" />
         </section>
       </main>
     </div>

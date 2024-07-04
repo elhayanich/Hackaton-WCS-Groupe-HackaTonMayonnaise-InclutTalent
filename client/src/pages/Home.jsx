@@ -1,16 +1,18 @@
 import React from "react";
 import Card from "../components/Card";
 import Toggle from "../components/Toggle";
-
+import Welcome from "../assets/images/welcome.png";
+import talentia from "../assets/images/Talentia_purple2x.png";
 const Home = () => {
   return (
     <div>
       <main className="bg-purple-50 min-h-screen p-8">
         <header className="text-center">
-          <h1 className="text-4xl font-bold text-purple-800 mb-4">Talentia</h1>
-          <p className="text-gray-700 text-lg">
-            Découvrez nos formations adaptées et accessibles à tous.
-          </p>
+          <img src={talentia} alt="" className="sm:w-1/2 mx-auto" />
+          <h2 className="text-gray-700 text-lg mt-5 mb-8">
+            Là où vos capacités rencontrent votre carrière.
+          </h2>
+          <img src={Welcome} alt="" />
         </header>
         <section className="mt-10 flex items-start">
           <div className="w-1/2 mr-8">
