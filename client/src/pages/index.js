@@ -4,5 +4,6 @@ import Jobs from "./Jobs";
 import LogIn from "./LogIn";
 import Connect from "./Connect";
 import Register from "./Register";
+import Blog from "./Blog";
 
-export { Home, About, Jobs, LogIn, Register, Connect };
+export { Home, About, Jobs, LogIn, Register, Connect, Blog };

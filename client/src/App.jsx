@@ -1,7 +1,15 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import { Home, About, Jobs, LogIn, Register, Connect } from "./pages/index";
+import {
+  Home,
+  About,
+  Jobs,
+  LogIn,
+  Register,
+  Connect,
+  Blog,
+} from "./pages/index";
 import Navbar from "./components/Navbar";
-
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <main>
@@ -14,7 +22,9 @@ const App = () => {
           <Route path="/login" element={<LogIn />} />
           <Route path="/register" element={<Register />} />
           <Route path="/connect" element={<Connect />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
+        <Footer />
       </Router>
     </main>
   );
