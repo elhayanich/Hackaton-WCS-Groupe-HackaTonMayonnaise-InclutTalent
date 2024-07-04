@@ -22,18 +22,6 @@
       "title": "Kinésithérapeute",
       "characteristics": ["#Bordeaux", "#CDI", "#médical"],
       "description": "Un kinésithérapeute pour aider nos patients à retrouver leur mobilité..."
-    },
-    {
-      "photo": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/medical-personnel-illustration-Graphics-9617779-2-580x387.png",
-      "title": "Pharmacien",
-      "characteristics": ["#Nice", "#CDI", "#médical"],
-      "description": "Un pharmacien pour gérer notre pharmacie et conseiller nos clients..."
-    },
-    {
-      "photo": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/medical-personnel-illustration-Graphics-9617779-2-580x387.png",
-      "title": "Dentiste",
-      "characteristics": ["#Paris", "#CDI", "#médical"],
-      "description": "Un dentiste pour rejoindre notre cabinet dentaire moderne et dynamique..."
     }
   ]
   

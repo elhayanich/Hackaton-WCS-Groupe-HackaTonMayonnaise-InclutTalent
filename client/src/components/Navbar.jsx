@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="header">
       <NavLink to="/">
-        <p className="blue-gradient_text">LF</p>
+        <p className="blue-gradient_text"></p>
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink
