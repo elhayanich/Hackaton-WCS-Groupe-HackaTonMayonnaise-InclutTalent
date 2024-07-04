@@ -9,7 +9,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const Jobs = () => {
-  // Personnalisation des flèches avec couleur purple-700
+  // flèches droite et gauche avec le package slider 
   const CustomPrevArrow = (props) => (
     <button {...props} className="slick-arrow slick-prev" aria-label="Previous">
       <svg className="svg-icon" viewBox="0 0 20 20">
@@ -26,7 +26,7 @@ const Jobs = () => {
     </button>
   );
 
-  // Configurations du carrousel
+  // Configurations du carrousel avec le package slider de React
   const sliderSettings = {
     dots: false, // Retirer les dots
     infinite: true,
@@ -59,7 +59,7 @@ const Jobs = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Section recherche avec les boutons */}
+      {/* Section recherche avec les boutons des catégories  */}
       <section className="mt-16 mx-4 pb-10 text-center p-4 bg-gray-100 rounded-lg shadow text-black border border-black">
         <img src={étoile} alt="étoile" className="mx-auto w-10 h-12 mb-4" />
         <h1 className="text-l font-xs">Trouvez la formation qui vous correspond</h1>
@@ -78,7 +78,7 @@ const Jobs = () => {
         </div>
       </section>
 
-      {/* Section des offres de job */}
+      {/* 4 Sections des offres de job */}
       <section className="mt-8 mx-4 pb-10">
         <h2 className="text-xl font-semibold text-center mb-4">Informatique</h2>
         <Slider {...sliderSettings} className="space-x-4">
