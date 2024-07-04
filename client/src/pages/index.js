@@ -3,5 +3,5 @@ import About from "./About";
 import Jobs from "./Jobs";
 import Formations from "./Formations";
 import JobOffer from "./JobOffer";
-
-export { Home, About, Jobs, Formations, JobOffer };
+import Blog from "./Blog";
+export { Home, About, Jobs, Formations, JobOffer, Blog };
