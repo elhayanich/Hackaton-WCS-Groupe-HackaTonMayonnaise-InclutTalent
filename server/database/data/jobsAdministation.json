@@ -22,18 +22,6 @@
       "title": "Office Manager",
       "characteristics": ["#Bordeaux", "#CDI", "#administration"],
       "description": "Un office manager pour superviser les opérations de bureau et soutenir l'équipe..."
-    },
-    {
-      "photo": "https://cdni.iconscout.com/illustration/premium/thumb/admin-lady-managing-online-data-transfer-and-security-2112384-1782204.png",
-      "title": "Assistant Juridique",
-      "characteristics": ["#Nice", "#CDI", "#administration"],
-      "description": "Un assistant juridique pour aider notre département juridique dans la gestion des dossiers..."
-    },
-    {
-      "photo": "https://cdni.iconscout.com/illustration/premium/thumb/admin-lady-managing-online-data-transfer-and-security-2112384-1782204.png",
-      "title": "Coordinateur de Projet",
-      "characteristics": ["#Paris", "#CDD", "#administration"],
-      "description": "Un coordinateur de projet pour planifier et superviser les projets administratifs..."
     }
   ]
   
