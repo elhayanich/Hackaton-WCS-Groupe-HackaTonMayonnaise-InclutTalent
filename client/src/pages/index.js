@@ -1,7 +1,7 @@
 import Home from "./Home";
 import About from "./About";
 import Jobs from "./Jobs";
-import LogIn from "./LogIn";
-import Register from "./Register";
+import Formations from "./Formations";
+import JobOffer from "./JobOffer";
 
-export { Home, About, Jobs, LogIn, Register };
+export { Home, About, Jobs, Formations, JobOffer };

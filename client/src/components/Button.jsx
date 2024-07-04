@@ -1,8 +1,6 @@
 import React from "react";
 
-// Ajoutez des props au composant Button
 const Button = ({ children, onClick, href }) => {
-  // Condition pour gérer le cas où un lien est fourni
   if (href) {
     return (
       <a
@@ -13,8 +11,6 @@ const Button = ({ children, onClick, href }) => {
       </a>
     );
   }
-
-  // Retourne un bouton si aucun lien n'est fourni
   return (
     <button
       onClick={onClick}

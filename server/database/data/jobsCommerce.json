@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.10&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gc98",
+      "title": "Responsable Commercial",
+      "characteristics": ["#Paris", "#CDI", "#commerce"],
+      "description": "Nous cherchons un responsable commercial pour diriger notre équipe de vente..."
+    },
+    {
+      "id": 2,
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.9&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gcc9",
+      "title": "Spécialiste Marketing",
+      "characteristics": ["#Lyon", "#CDI", "#commerce"],
+      "description": "Un spécialiste marketing pour développer et exécuter des stratégies marketing efficaces..."
+    },
+    {
+      "id": 3,
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.11&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gcf10",
+      "title": "Agent Service Client",
+      "characteristics": ["#Marseille", "#CDI", "#commerce"],
+      "description": "Nous recherchons un agent de service client pour répondre aux besoins de nos clients..."
+    },
+    {
+      "id": 4,
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.12&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gci11",
+      "title": "Analyste Commercial",
+      "characteristics": ["#Bordeaux", "#CDI", "#commerce"],
+      "description": "Un analyste commercial pour fournir des analyses et des recommandations stratégiques..."
+    }
+  ]
+  

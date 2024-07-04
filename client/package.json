@@ -7,10 +7,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "css": "^3.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
+    "react-alice-carousel": "^2.9.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.23.0"
+    "react-router-dom": "^6.23.0",
+    "tailwind": "^4.0.0",
+    "ui": "^0.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
@@ -26,9 +30,5 @@
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.4",
     "vite": "^5.2.11"
-  },
-  "lint-staged": {
-    "*.{html,scss,css}": "prettier --check",
-    "*.{jsx,js}": "eslint --report-unused-disable-directives"
   }
 }
