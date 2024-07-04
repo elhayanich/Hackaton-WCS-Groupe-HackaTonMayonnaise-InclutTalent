@@ -3,7 +3,7 @@ import LogIn from "../pages/LogIn";
 
 const Navbar = () => {
   return (
-    <nav className="flex bg-blue-100 content-center justify-between border-b-2 border-black">
+    <nav className="flex bg-Lightblue content-center justify-between border-b-2 border-black">
       <span className=" m-4 text-purple-950 text-4xl">Talentia</span>
       <div>
         <ul className=" flex flex-row gap-10 mr-12">
@@ -18,7 +18,7 @@ const Navbar = () => {
           </li>
           <li className="m-4">
             <Link to="/login">
-              <button className="border-solid border-2 px-8 py-2 text-white bg-indigo-600 rounded-lg border-black ">
+              <button className="border-solid border-2 px-8 py-2 text-white bg-Purplee rounded-lg border-black ">
                 Connexion
               </button>
               {/* {modal && (
