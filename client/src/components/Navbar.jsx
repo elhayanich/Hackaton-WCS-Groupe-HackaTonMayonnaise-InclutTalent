@@ -6,7 +6,7 @@ import talentia from "../assets/images/Talentia_purple2x.png";
 const Navbar = () => {
   return (
     <nav className="flex bg-Lightblue content-center justify-between border-b-2 border-black">
-      <img src={talentia} alt="" className="h-14 w-34 ml-4 mt-2" />
+      <img src={talentia} alt="" className="h-8 w-28 ml-6 mt-4" />
       <div>
         <ul className=" flex flex-row mr-12">
           <li className="m-6">
@@ -32,8 +32,8 @@ const Navbar = () => {
               nested
             >
               {(close) => (
-                <div className="bg-slate-200">
-                  <div className=" border-solid border-2 border-black">
+                <div className="bg-gray-200">
+                  <div className=" border-solid border-2 border-black rounded-lg">
                     <div className="flex justify-end pr-4 pt-4">
                       <button
                         type="button"
@@ -43,7 +43,7 @@ const Navbar = () => {
                         X
                       </button>
                     </div>
-                    <div className="flex flex-col items-center m-4 px-12 bg-slate-200">
+                    <div className="flex flex-col items-center m-4 px-12 bg-gray-200">
                       <span className="font-extrabold">Bienvenue !</span>
                       <ul className="flex flex-row gap-6 my-4">
                         <li>
@@ -147,8 +147,8 @@ const Navbar = () => {
               nested
             >
               {(close) => (
-                <div className="bg-slate-200">
-                  <div className=" border-solid border-2 border-black">
+                <div className="bg-gray-200">
+                  <div className=" border-solid border-2 border-black rounded-lg">
                     <div className="flex justify-end pr-4 pt-4">
                       <button
                         type="button"
@@ -158,7 +158,7 @@ const Navbar = () => {
                         X
                       </button>
                     </div>
-                    <div className="flex flex-col items-center my-6 m-4 pb-8 pt-4 px-14 bg-slate-200">
+                    <div className="flex flex-col items-center my-6 m-4 pb-8 pt-4 px-14 bg-gray-200">
                       <span className="font-extrabold mb-4">Bienvenue !</span>
                       <ul className="flex flex-row gap-6 my-4">
                         <li>
