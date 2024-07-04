@@ -1,38 +1,26 @@
 [
     {
-      "photo": "https://cdni.iconscout.com/illustration/premium/thumb/informatique-professionnel-5734392-4799746.png",
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.3&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gb80",
       "title": "Développeur Full Stack",
       "characteristics": ["#en télétravail", "#Paris", "#tech"],
       "description": "Nous recherchons un Développeur Full Stack expérimenté pour rejoindre notre équipe dynamique..."
     },
     {
-      "photo": "https://cdni.iconscout.com/illustration/premium/thumb/informatique-professionnel-5734392-4799746.png",
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.1&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gbi1",
       "title": "Développeur Backend",
       "characteristics": ["#en télétravail", "#Lyon", "#tech"],
       "description": "Nous cherchons un développeur backend pour travailler sur nos APIs..."
     },
     {
-      "photo": "https://cdni.iconscout.com/illustration/premium/thumb/informatique-professionnel-5734392-4799746.png",
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.6&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gbn2",
       "title": "Développeur Frontend",
       "characteristics": ["#Paris", "#CDI", "#tech"],
       "description": "Un développeur frontend passionné par les interfaces utilisateurs innovantes..."
     },
     {
-      "photo": "https://cdni.iconscout.com/illustration/premium/thumb/informatique-professionnel-5734392-4799746.png",
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.5&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gbr3",
       "title": "Développeur Mobile",
       "characteristics": ["#en télétravail", "#Marseille", "#tech"],
       "description": "Nous recherchons un développeur mobile pour créer des applications iOS et Android..."
-    },
-    {
-      "photo": "https://cdni.iconscout.com/illustration/premium/thumb/informatique-professionnel-5734392-4799746.png",
-      "title": "Ingénieur DevOps",
-      "characteristics": ["#Bordeaux", "#CDI", "#tech"],
-      "description": "Nous avons besoin d'un ingénieur DevOps pour automatiser et améliorer nos processus..."
-    },
-    {
-      "photo": "https://cdni.iconscout.com/illustration/premium/thumb/informatique-professionnel-5734392-4799746.png",
-      "title": "Data Scientist",
-      "characteristics": ["#en télétravail", "#Nice", "#tech"],
-      "description": "Un Data Scientist pour analyser des données complexes et fournir des insights stratégiques..."
     }
   ]
