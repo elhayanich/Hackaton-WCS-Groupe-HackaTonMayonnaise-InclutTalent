@@ -1,23 +1,27 @@
 [
     {
+      "id": 1,
       "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.2&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gbu4",
       "title": "Assistant Administratif",
       "characteristics": ["#Paris", "#CDI", "#administration"],
       "description": "Nous cherchons un assistant administratif pour soutenir notre équipe de direction..."
     },
     {
+      "id": 2,
       "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.4&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gby5",
       "title": "Responsable RH",
       "characteristics": ["#Lyon", "#CDI", "#administration"],
       "description": "Un responsable RH expérimenté pour gérer toutes les fonctions des ressources humaines..."
     },
     {
+      "id": 3,
       "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.7&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gc26",
       "title": "Comptable",
       "characteristics": ["#Marseille", "#CDI", "#administration"],
       "description": "Nous recherchons un comptable pour gérer nos finances et assurer la conformité..."
     },
     {
+      "id": 4,
       "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.8&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gc67",
       "title": "Office Manager",
       "characteristics": ["#Bordeaux", "#CDI", "#administration"],

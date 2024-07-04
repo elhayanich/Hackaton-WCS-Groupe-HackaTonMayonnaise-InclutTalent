@@ -5,6 +5,7 @@ import jobsAdministration from "../../../server/database/data/jobsAdministation.
 import jobsCommerce from "../../../server/database/data/jobsCommerce.json";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -37,7 +38,7 @@ const Jobs = () => {
     placeholder="CDI, CDD ..."
     className="w-1/6 p-2 rounded-lg border border-black text-purple-600"
   />
-  <button className="w-1/6 p-2 rounded-lg border border-black bg-purple-700 text-white">
+  <button className="w-1/6 p-2 rounded-lg border border-black bg-Purplee text-white">
     Filtrer
   </button>
 </div>
@@ -51,8 +52,11 @@ const Jobs = () => {
             <div key={index} className="relative p-4 bg-Greyy rounded-lg shadow border border-black" style={{ width: '20rem', height: '25rem' }}>
               <img src={job.photo} alt={job.title} className="w-full h-40 object-cover mb-4 bg-white" />
               <h3 className="text-lg font-semibold">{job.title}</h3>
-              <div className="text-sm text-gray-600 mb-2">{job.characteristics.join(" ")}</div>
-              <button className="absolute bottom-4 right-4 px-4 py-2 text-white bg-Purplee rounded-lg shadow-lg border border-black hover:bg-Purplee hover:border-purple-800 transition duration-300">Voir</button>
+              <div className="text-sm text-Purplee mb-2">{job.characteristics.join(" ")}</div>
+              <div className="text-sm text-gray-600 mb-2">{job.description}</div>
+              <Link to={`/joboffer`}>
+                <button className="absolute bottom-4 right-4 px-4 py-2 text-white bg-Purplee rounded-lg shadow-lg border border-black hover:bg-Purplee hover:border-purple-800 transition duration-300">Voir</button>
+              </Link>
             </div>
           ))}
           responsive={responsive}
@@ -70,8 +74,11 @@ const Jobs = () => {
             <div key={index} className="relative p-4 bg-Greyy rounded-lg shadow border border-black" style={{ width: '20rem', height: '25rem' }}>
               <img src={job.photo} alt={job.title} className="w-full h-40 object-cover mb-4 bg-white" />
               <h3 className="text-lg font-semibold">{job.title}</h3>
-              <div className="text-sm text-gray-600 mb-2">{job.characteristics.join(" ")}</div>
-              <button className="absolute bottom-4 right-4 px-4 py-2 text-white bg-Purplee rounded-lg shadow-lg border border-black hover:bg-Purplee hover:border-Purplee transition duration-300">Voir</button>
+              <div className="text-sm text-Purplee mb-2">{job.characteristics.join(" ")}</div>
+              <div className="text-sm text-gray-600 mb-2">{job.description}</div>
+              <Link to={`/joboffer/${job.id}`}>
+                <button className="absolute bottom-4 right-4 px-4 py-2 text-white bg-Purplee rounded-lg shadow-lg border border-black hover:bg-Purplee hover:border-purple-800 transition duration-300">Voir</button>
+              </Link>
             </div>
           ))}
           responsive={responsive}
@@ -90,8 +97,11 @@ const Jobs = () => {
             <div key={index} className="relative p-4 bg-Greyy rounded-lg shadow border border-black" style={{ width: '20rem', height: '25rem' }}>
               <img src={job.photo} alt={job.title} className="w-full h-40 object-cover mb-4 bg-white" />
               <h3 className="text-lg font-semibold">{job.title}</h3>
-              <div className="text-sm text-gray-600 mb-2">{job.characteristics.join(" ")}</div>
-              <button className="absolute bottom-4 right-4 px-4 py-2 text-white bg-Purplee rounded-lg shadow-lg border border-black hover:bg-Purplee hover:border-Purplee transition duration-300">Voir</button>
+              <div className="text-sm text-Purplee mb-2">{job.characteristics.join(" ")}</div>
+              <div className="text-sm text-gray-600 mb-2">{job.description}</div> 
+              <Link to={`/joboffer/${job.id}`}>
+                <button className="absolute bottom-4 right-4 px-4 py-2 text-white bg-Purplee rounded-lg shadow-lg border border-black hover:bg-Purplee hover:border-purple-800 transition duration-300">Voir</button>
+              </Link>
             </div>
           ))}
           responsive={responsive}
