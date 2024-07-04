@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 import Toggle from "../components/Toggle";
+import Footer from "../components/Footer";
 const Home = () => {
   return (
     <main className="bg-purple-50 min-h-screen p-8">
@@ -80,6 +81,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 };
