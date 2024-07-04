@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 import Toggle from "../components/Toggle";
+
 const Home = () => {
   return (
     <main className="bg-slate-100 min-h-screen p-8">
