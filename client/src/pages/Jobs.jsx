@@ -8,6 +8,7 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
 
+
 const Jobs = () => {
   const responsive = {
     0: { items: 1 },
