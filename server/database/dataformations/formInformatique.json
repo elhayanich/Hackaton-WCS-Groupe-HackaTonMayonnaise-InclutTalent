@@ -1,0 +1,24 @@
+[
+    {
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.3&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gb80",
+      "title": "Développement Web ",
+      "characteristics": "Formez-vous au métier de Développeur Web et spécialisez-vous sur les langages de programmation"
+      
+    },
+    {
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.1&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gbi1",
+      "title": "Web Designer",
+      "characteristics": "Apprendre à maîtriser Photoshop Illustrator et Indesign les fondamentaux du design d’interface."
+     
+    },
+    {
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.6&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gbn2",
+      "title": "Formation Figma",
+      "characteristics": "Cette formation vous fournira toutes les connaissances nécessaires pour exceller avec cet outil de design d'interface."
+    },
+    {
+      "photo": "https://mail.google.com/mail/u/0?ui=2&ik=3afee4ebe1&attid=0.5&permmsgid=msg-a:r6528036384399850635&th=1907d3f1eef7f97d&view=att&disp=safe&realattid=f_ly743gbr3",
+      "title": "Formation Photoshop",
+      "characteristics": "Cette formation vous fournira toutes les compétences nécessaires pour maîtriser cet outil de retouche."
+    }
+  ]

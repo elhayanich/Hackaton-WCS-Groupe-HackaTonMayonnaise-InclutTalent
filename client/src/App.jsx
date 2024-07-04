@@ -1,6 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import { Home, About, Jobs, Connect, Blog } from "./pages/index";
-
+import { Home, About, Jobs, Formations, JobOffer } from "./pages/index";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 const App = () => {
@@ -12,9 +11,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/jobs" element={<Jobs />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/connect" element={<Connect />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/formation" element={<Formations />} />
+          <Route path="/joboffer" element={<JobOffer />} />
         </Routes>
         <Footer />
       </Router>
