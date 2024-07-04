@@ -1,31 +1,36 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import LogIn from "../pages/LogIn";
 
 const Navbar = () => {
   return (
-    <header className="header">
-      <NavLink to="/">
-        <p className="blue-gradient_text"></p>
-      </NavLink>
-      <nav className="flex text-lg gap-7 font-medium">
-        <NavLink
-          to="about"
-          className={({ isActive }) =>
-            isActive ? "text-blue-500" : "text-black-500"
-          }
-        >
-          About
-        </NavLink>
-
-        <NavLink
-          to="projects"
-          className={({ isActive }) =>
-            isActive ? "text-blue-500" : "text-black-500"
-          }
-        >
-          projects
-        </NavLink>
-      </nav>
-    </header>
+    <nav className="flex bg-blue-100 content-center justify-between border-b-2 border-black">
+      <span className=" m-4 text-purple-950 text-4xl">Talentia</span>
+      <div>
+        <ul className=" flex flex-row gap-10 mr-12">
+          <li className="m-6">
+            <Link to="/">Accueil</Link>
+          </li>
+          <li className="m-6">
+            <Link to="/formation">Formation</Link>
+          </li>
+          <li className="m-6">
+            <Link to="/jobs">Jobs</Link>
+          </li>
+          <li className="m-4">
+            <Link to="/login">
+              <button className="border-solid border-2 px-8 py-2 text-white bg-indigo-600 rounded-lg border-black ">
+                Connexion
+              </button>
+              {/* {modal && (
+                <div onClick={toggleModal}>
+                  <LogIn />
+                </div>
+              )} */}
+            </Link>
+          </li>
+        </ul>{" "}
+      </div>
+    </nav>
   );
 };
 
