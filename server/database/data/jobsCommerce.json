@@ -1,0 +1,39 @@
+[
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2022/12/29/Ecommerce-web-page-concept-illustration-Graphics-55079404-1-1-580x386.png",
+      "title": "Responsable Commercial",
+      "characteristics": ["#Paris", "#CDI", "#commerce"],
+      "description": "Nous cherchons un responsable commercial pour diriger notre équipe de vente..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2022/12/29/Ecommerce-web-page-concept-illustration-Graphics-55079404-1-1-580x386.png",
+      "title": "Spécialiste Marketing",
+      "characteristics": ["#Lyon", "#CDI", "#commerce"],
+      "description": "Un spécialiste marketing pour développer et exécuter des stratégies marketing efficaces..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2022/12/29/Ecommerce-web-page-concept-illustration-Graphics-55079404-1-1-580x386.png",
+      "title": "Agent Service Client",
+      "characteristics": ["#Marseille", "#CDI", "#commerce"],
+      "description": "Nous recherchons un agent de service client pour répondre aux besoins de nos clients..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2022/12/29/Ecommerce-web-page-concept-illustration-Graphics-55079404-1-1-580x386.png",
+      "title": "Analyste Commercial",
+      "characteristics": ["#Bordeaux", "#CDI", "#commerce"],
+      "description": "Un analyste commercial pour fournir des analyses et des recommandations stratégiques..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2022/12/29/Ecommerce-web-page-concept-illustration-Graphics-55079404-1-1-580x386.png",
+      "title": "Représentant des Ventes",
+      "characteristics": ["#Nice", "#CDI", "#commerce"],
+      "description": "Un représentant des ventes pour développer notre portefeuille de clients..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2022/12/29/Ecommerce-web-page-concept-illustration-Graphics-55079404-1-1-580x386.png",
+      "title": "Responsable de Magasin",
+      "characteristics": ["#Paris", "#CDI", "#commerce"],
+      "description": "Un responsable de magasin pour gérer les opérations quotidiennes de notre point de vente..."
+    }
+  ]
+  

@@ -1,0 +1,39 @@
+[
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/medical-personnel-illustration-Graphics-9617779-2-580x387.png",
+      "title": "Médecin Généraliste",
+      "characteristics": ["#Paris", "#CDI", "#médical"],
+      "description": "Nous cherchons un médecin généraliste pour rejoindre notre clinique dynamique..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/medical-personnel-illustration-Graphics-9617779-2-580x387.png",
+      "title": "Infirmier(ère)",
+      "characteristics": ["#Lyon", "#CDI", "#médical"],
+      "description": "Un(e) infirmier(ère) pour fournir des soins de haute qualité à nos patients..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/medical-personnel-illustration-Graphics-9617779-2-580x387.png",
+      "title": "Chirurgien",
+      "characteristics": ["#Marseille", "#CDI", "#médical"],
+      "description": "Nous recherchons un chirurgien expérimenté pour rejoindre notre équipe..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/medical-personnel-illustration-Graphics-9617779-2-580x387.png",
+      "title": "Kinésithérapeute",
+      "characteristics": ["#Bordeaux", "#CDI", "#médical"],
+      "description": "Un kinésithérapeute pour aider nos patients à retrouver leur mobilité..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/medical-personnel-illustration-Graphics-9617779-2-580x387.png",
+      "title": "Pharmacien",
+      "characteristics": ["#Nice", "#CDI", "#médical"],
+      "description": "Un pharmacien pour gérer notre pharmacie et conseiller nos clients..."
+    },
+    {
+      "photo": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/medical-personnel-illustration-Graphics-9617779-2-580x387.png",
+      "title": "Dentiste",
+      "characteristics": ["#Paris", "#CDI", "#médical"],
+      "description": "Un dentiste pour rejoindre notre cabinet dentaire moderne et dynamique..."
+    }
+  ]
+  
