@@ -19,7 +19,7 @@ const Blog = () => {
       <main className="max-w-4xl mx-auto pt-10 px-4">
         <section className="flex mb-12 items-start">
           <div className="flex-1 text-left pr-6">
-            <h2 className="text-xl font-bold mb-4 text-purple-700">
+            <h2 className="text-xl font-bold mb-4 text-Purplee">
               Démographie et Inclusion : Âge, Nationalité et Genre au Travail.
             </h2>
             <p className="text-gray-600 mb-6">
@@ -40,7 +40,7 @@ const Blog = () => {
 
         <section className="flex mb-12 flex-row-reverse items-start">
           <div className="flex-1 text-left pl-6">
-            <h2 className="text-xl font-bold mb-4 text-purple-700">
+            <h2 className="text-xl font-bold mb-4 text-Purplee">
               Équité et Diversité : Répartition du Handicap dans les Divisions
               et Postes.
             </h2>
@@ -58,7 +58,7 @@ const Blog = () => {
 
         <section className="flex mb-12 items-start">
           <div className="flex-1 text-left pr-6">
-            <h2 className="text-xl font-bold mb-4 text-purple-700">
+            <h2 className="text-xl font-bold mb-4 text-Purplee">
               Analyse des Loisirs et du Handicap : Répartition des Intérêts
             </h2>
             <p className="text-gray-600 mb-6">
