@@ -56,7 +56,7 @@ const Home = () => {
           <h2 className="text-3xl text-purple-700 mb-2">
             Découvrez les jobs du moment
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pt-7 pb-7">
             <Card
               title="Informatique"
               description="Découvrez nos offres d'emploi dans l'informatique."
@@ -119,8 +119,8 @@ const Home = () => {
           <div className="faq mx-auto max-w-2xl">
             <div className="bg-white rounded-lg shadow-lg p-6 mb-4 text-center">
               <h3 className="text-xl font-semibold">
-                Quels types d'emplois sont disponibles pour les personnes
-                handicapées sur ce site ?
+                Quels types d'emplois sont disponibles pour les personnes en
+                situation de handicap chez Talentia ?
               </h3>
               <Toggle
                 className="text-gray-600 mt-2"
@@ -132,7 +132,7 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 mb-4 text-center">
               <h3 className="text-xl font-semibold">
                 Comment le site assure-t-il que les formations proposées sont
-                accessibles aux personnes handicapées ?
+                accessibles aux personnes en situation de handicap ?
               </h3>
               <Toggle
                 className="text-gray-600 mt-2"
@@ -144,7 +144,8 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-lg p-6 mb-4 text-center">
               <h3 className="text-xl font-semibold">
                 Le site offre-t-il des ressources supplémentaires pour aider les
-                personnes handicapées dans leur recherche d'emploi ?
+                personnes en situation de handicap dans leur recherche d'emploi
+                ?
               </h3>
               <Toggle
                 className="text-gray-600 mt-2"
