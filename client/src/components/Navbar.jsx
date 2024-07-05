@@ -122,12 +122,15 @@ const Navbar = () => {
                           <span>
                             <button>Mot de passe oublié ?</button>
                           </span>
-                          <button
-                            type="button"
-                            className="border-solid border-2 px-8 py-2 text-white bg-indigo-600 rounded-lg border-black "
-                          >
-                            Connexion
-                          </button>
+                          <Link to="/profil">
+                            <button
+                              type="button"
+                              className="border-solid border-2 px-8 py-2 text-white bg-indigo-600 rounded-lg border-black "
+                              to="/profil"
+                            >
+                              Connexion
+                            </button>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -159,55 +162,35 @@ const Navbar = () => {
                       </button>
                     </div>
                     <div className="flex flex-col items-center my-6 m-4 pb-8 pt-4 px-14 bg-gray-200">
-                      <span className="font-extrabold mb-4">Bienvenue !</span>
-                      <ul className="flex flex-row gap-6 my-4">
-                        <li>
-                          <button className="mb-4">Se connecter</button>
-                        </li>
-                      </ul>
-                      <div>
-                        <form className="flex flex-col gap-4">
-                          <input
-                            type="email"
-                            name="email"
-                            placeholder="Se connecter avec Google"
-                            className="rounded-lg py-1 pl-2 pr-24 border-solid border-2 border-black"
-                          />
-                          <input
-                            type="email"
-                            name="email"
-                            placeholder="Se connecter avec LinkedIn"
-                            className="rounded-lg py-1 pl-2 pr-24 border-solid border-2 border-black"
-                          />
-                        </form>
-                        <hr />
-                        <span className="flex justify-center m-4">ou</span>
-                        <hr />
-                        <form className="flex flex-col gap-4">
-                          <input
-                            type="email"
-                            name="email"
-                            placeholder="Adresse email"
-                            className="rounded-lg py-1 pl-2 pr-24 border-solid border-2 border-black"
-                          />
-                          <input
-                            type="password"
-                            name="password"
-                            placeholder="Mot de passe"
-                            className="rounded-lg py-1 pl-2 pr-24 border-solid border-2 border-black "
-                          />
-                        </form>
-                        <div className="flex flex-col items-center gap-4">
-                          <span className="my-8 ">
-                            <button>Mot de passe oublié ?</button>
-                          </span>
+                      <span className="font-extrabold mb-16 text-2xl">
+                        Bienvenue !
+                      </span>
+                      <form className="flex flex-col gap-12">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Adresse email"
+                          className="rounded-lg py-1 pl-2 pr-24 border-solid border-2 border-black"
+                        />
+                        <input
+                          type="password"
+                          name="password"
+                          placeholder="Mot de passe"
+                          className="rounded-lg py-1 pl-2 pr-24 border-solid border-2 border-black "
+                        />
+                      </form>
+                      <div className="flex flex-col items-center gap-6">
+                        <span className="my-10 ">
+                          <button>Mot de passe oublié ?</button>
+                        </span>
+                        <Link to={"/profil"}>
                           <button
                             type="button"
                             className="border-solid border-2 px-8 py-2 text-white bg-Purplee rounded-lg border-black "
                           >
                             Connexion
                           </button>
-                        </div>
+                        </Link>
                       </div>
                     </div>
                   </div>

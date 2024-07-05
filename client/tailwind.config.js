@@ -10,7 +10,10 @@ module.exports = {
         Lightblue: "#D9DEFA",
         Greyy: "#F2F1F3",
       },
+      fontFamily: {
+        title: ["ArchivoBlack-Regular"],
+      },
     },
+    plugins: [],
   },
-  plugins: [],
 };
