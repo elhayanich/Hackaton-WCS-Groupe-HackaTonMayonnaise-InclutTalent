@@ -125,6 +125,7 @@ const Navbar = () => {
                           <button
                             type="button"
                             className="border-solid border-2 px-8 py-2 text-white bg-indigo-600 rounded-lg border-black "
+                            to="/profil"
                           >
                             Connexion
                           </button>
@@ -201,12 +202,14 @@ const Navbar = () => {
                           <span className="my-8 ">
                             <button>Mot de passe oublié ?</button>
                           </span>
-                          <button
-                            type="button"
-                            className="border-solid border-2 px-8 py-2 text-white bg-Purplee rounded-lg border-black "
-                          >
-                            Connexion
-                          </button>
+                          <Link to={"/profil"}>
+                            <button
+                              type="button"
+                              className="border-solid border-2 px-8 py-2 text-white bg-Purplee rounded-lg border-black "
+                            >
+                              Connexion
+                            </button>
+                          </Link>
                         </div>
                       </div>
                     </div>
