@@ -21,7 +21,7 @@ const Home = () => {
         </header>
         <section className="mt-10 flex items-start">
           <div className="w-1/2 mr-8">
-            <h2 className="text-3xl text-purple-700 mb-6">Formations</h2>
+            <h2 className="text-3xl text-Purplee mb-6">Formations</h2>
             <p class="text-gray-700 text-xl font-semibold">
               Chaque programme est <strong>adapté</strong> pour garantir une{" "}
               <strong>accessibilité maximale</strong> et répondre aux besoins
@@ -53,7 +53,7 @@ const Home = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-3xl text-purple-700 mb-2">
+          <h2 className="text-3xl text-Purplee mb-2">
             Découvrez les jobs du moment
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pt-7 pb-7">
@@ -88,7 +88,7 @@ const Home = () => {
               className="flex-none w-1/2"
             />
             <div className="w-1/2">
-              <h2 className="text-3xl text-purple-700 mb-20 ">À propos</h2>
+              <h2 className="text-3xl text-Purplee mb-20 ">À propos</h2>
               <p class="text-gray-600 text-lg font-semibold">
                 Créée par une équipe <strong>passionnée</strong> et{" "}
                 <strong>diversifiée</strong> composée de trois développeurs web,
@@ -115,7 +115,7 @@ const Home = () => {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-3xl text-purple-700 mb-2 text-center">FAQ</h2>
+          <h2 className="text-3xl text-Purplee mb-2 text-center">FAQ</h2>
           <div className="faq mx-auto max-w-2xl">
             <div className="bg-white rounded-lg shadow-lg p-6 mb-4 text-center">
               <h3 className="text-xl font-semibold">
