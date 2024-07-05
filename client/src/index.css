@@ -2,4 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@font-face {
+    font-family:"ArchivoBlack-Regular" ;
+    src: url("./assets/font/ArchivoBlack-Regular.ttf");
+}

@@ -5,7 +5,7 @@ const Button = ({ children, onClick, href }) => {
     return (
       <a
         href={href}
-        className="mt-4 bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-500 transition duration-300 ease-in-out"
+        className="mt-4 bg-Purplee text-white px-4 py-2 rounded hover:bg-Purplee hover:text-white transition duration-300 ease-in-out"
       >
         {children}
       </a>
@@ -14,7 +14,7 @@ const Button = ({ children, onClick, href }) => {
   return (
     <button
       onClick={onClick}
-      className="mt-4 bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-500 transition duration-300 ease-in-out"
+      className="mt-4 bg-Purplee text-white px-4 py-2 rounded hover:bg-Purplee hover:text-white transition duration-300 ease-in-out"
     >
       {children}
     </button>

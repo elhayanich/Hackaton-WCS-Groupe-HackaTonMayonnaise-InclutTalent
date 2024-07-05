@@ -1,10 +1,11 @@
+import talentiag from "../assets/images/Talentia_grey2x.png";
 const Footer = () => {
   return (
-    <footer className="bg-purple-800  text-white w-full">
+    <footer className="bg-Purplee  text-white w-full">
       {" "}
       {/* w-full pour que le fond prenne toute la largeur */}
       <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between items-start">
-        <h1 className="text-xl font-bold">Talentia</h1>
+        <img src={talentiag} alt="talentia" className="h-8 w-28" />
         <div className="flex-grow">
           <div className="flex justify-end">
             <div className="flex flex-col space-y-2 mr-20">
