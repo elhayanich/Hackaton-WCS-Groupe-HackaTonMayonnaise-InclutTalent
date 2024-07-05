@@ -3,9 +3,19 @@ import Button from "../components/Button";
 import Demographie from "../assets/images/demographie.png";
 import Diversite from "../assets/images/diversite.png";
 import Handicap from "../assets/images/handicap-secteur.png";
+import Blogframe from "../assets/images/blogframe.png";
 const Blog = () => {
   return (
     <div className="bg-white min-h-screen">
+      <header className="text-center">
+        <div class="py-5 flex justify-center">
+          <img
+            src={Blogframe}
+            alt="Présentation du blog Talentia"
+            className="w-4/5 max-w-full mx-auto"
+          />
+        </div>
+      </header>
       <main className="max-w-4xl mx-auto pt-10 px-4">
         <section className="flex mb-12 items-start">
           <div className="flex-1 text-left pr-6">
